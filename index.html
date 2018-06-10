@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="js/three.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+		<script src="js/Projector.js"></script>
+    <script src="js/CanvasRenderer.js"></script>
+		<!-- <script src="js/ColladaLoader.js"></script> -->
+		<script src="js/Detector.js"></script>
+    <script src="js/stats.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/THREEx.KeyboardState.js"></script>
+    <script src="js/THREEx.FullScreen.js"></script>
+    <script src="js/THREEx.WindowResize.js"></script>
+    <title>Zappy</title>
+  </head>
+  <!-- <body style="-webkit-app-region: drag"> -->
+  <body>
+    <div id="container"></div>
+    <!-- <div id="ThreeJS" style="position: absolute; left:0px; top:0px"></div> -->
+    <script>
+      // You can also require other files to run in this process
+      require('./poly.js')
+    </script>
+  </body>
+</html>
